@@ -1,0 +1,49 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "glyphs",
+      "sprites": "sprites",
+      "styles": "styles",
+      "mbtiles": "data"
+    },
+    "serveStaticMaps": true,
+    "formatQuality": {
+      "jpeg": 90,
+      "webp": 90
+    },
+    "formatEncoding": {
+      "png": 6,
+      "jpeg": 80,
+      "webp": 90
+    }
+  },
+  "styles": {
+    "basic": {
+      "style": "basic-v9.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    },
+    "bright": {
+      "style": "bright-v9.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    },
+    "mptiler": {
+      "style": "mptiler.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "south-america.mbtiles"
+    }
+  }
+}

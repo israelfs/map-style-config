@@ -1,0 +1,3 @@
+docker run -v /home/isr/tileservers/tilemaker/tilemaker/srv:/srv -i -t --rm --memory=10G --cpus=8 --oom-kill-disable tilemaker /srv/south-america-latest.osm.pbf  --output=/srv/south-america-tilemaker.mbtiles
+
+docker run --rm -it -v $(pwd):/data -p 8080:8080 maptiler/tileserver-gl
