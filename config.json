@@ -16,14 +16,14 @@
       "png": 6,
       "jpeg": 80,
       "webp": 90
-    }
+    },
+    "watermark": "Imediatum"
   },
   "styles": {
     "basic": {
       "style": "basic-v9.json",
       "tilejson": {
         "type": "overlay",
-        "bounds": [8.529446, 47.364758, 8.55232, 47.380539],
         "format": "webp"
       }
     },
@@ -31,7 +31,6 @@
       "style": "bright-v9.json",
       "tilejson": {
         "type": "overlay",
-        "bounds": [8.529446, 47.364758, 8.55232, 47.380539],
         "format": "webp"
       }
     },
@@ -39,7 +38,6 @@
       "style": "street.json",
       "tilejson": {
         "type": "overlay",
-        "bounds": [8.529446, 47.364758, 8.55232, 47.380539],
         "format": "webp"
       }
     }
